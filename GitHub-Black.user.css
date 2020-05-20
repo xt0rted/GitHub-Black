@@ -34,19 +34,19 @@
 
   .form-control,
   .form-select {
-    background-color: var(--ghb-bg-input-color);
+    background-color: var(--ghb-bg-input-color) !important;
   }
 
   .form-group .form-control {
-    background-color: var(--ghb-bg-input-color);
+    background-color: var(--ghb-bg-input-color) !important;
   }
 
   .form-group .form-control:focus {
-    background-color: var(--ghb-bg-input-color);
+    background-color: var(--ghb-bg-input-color) !important;
   }
 
   .input-contrast, .input-contrast:focus {
-    background-color: var(--ghb-bg-input-color);
+    background-color: var(--ghb-bg-input-color) !important;
   }
 
   /* left column layouts */
