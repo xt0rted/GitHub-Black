@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name        GitHub Black
+@namespace   github.com/openstyles/stylus
+@version     1.0.0
+@homepageURL https://github.com/xt0rted/GitHub-Black
+@updateURL   https://raw.githubusercontent.com/xt0rted/GitHub-Black/master/GitHub-Black.user.css
+@license     CC-BY-SA-4.0
+@author      xt0rted
+==/UserStyle== */
+@-moz-document domain("github.com") {
+  :root {
+    --ghb-bg-color: #000;
+    --ghb-bg-overlay-color: rgba(24, 24, 24, .4);
+  }
+
+  body,
+  body.bg-gray {
+    background: var(--ghb-bg-color) !important;
+  }
+
+  /* forms */
+  input[type="checkbox"],
+  input[type="checkbox"]:disabled,
+  input[type="checkbox"]:focus,
+  input[type="checkbox"]:hover:active,
+  input[type="checkbox"]:hover:disabled,
+  input[type="checkbox"]:hover:active:disabled,
+  input[type="radio"],
+  input[type="radio"]:focus,
+  input[type="radio"]:hover:active {
+    background-color: var(--ghb-bg-overlay-color) !important;
+  }
+
+  .form-control,
+  .form-select {
+    background-color: var(--ghb-bg-overlay-color);
+  }
+
+  .form-group .form-control {
+    background-color: var(--ghb-bg-overlay-color);
+  }
+
+  .form-group .form-control:focus {
+    background-color: var(--ghb-bg-color);
+  }
+
+  /* left column layouts */
+  .team-left-column.bg-white,
+  .checks-list-item,
+  .MarketplaceEdit-body > .bg-gray-light {
+    background-color: var(--ghb-bg-overlay-color) !important;
+  }
+
+  /* tabs */
+  .reponav-item.selected,
+  .pagehead-tabs-item.selected, /* org tabs */
+  .tabnav-pr .tabnav-tab.selected {
+    background-color: var(--ghb-bg-color) !important;
+  }
+
+  /* actions workflows pages */
+  .CheckRun,
+  .CheckRun-header,
+  section[aria-label="Check run summary"] {
+    background-color: var(--ghb-bg-color) !important;
+  }
+
+  .TimelineItem-break,
+  .tabnav-pr .tabnav-tab.selected,
+  .profile-timeline-month-heading.bg-white,
+  .commits-listing .octicon-git-commit {
+    background-color: var(--ghb-bg-color) !important;
+  }
+}
