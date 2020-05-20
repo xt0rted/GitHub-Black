@@ -76,9 +76,14 @@
   }
 
   .TimelineItem-break,
+  .TimelineItem--condensed .TimelineItem-badge,
   .tabnav-pr .tabnav-tab.selected,
   .profile-timeline-month-heading.bg-white,
   .commits-listing .octicon-git-commit {
     background-color: var(--ghb-bg-color) !important;
+  }
+
+  .TimelineItem-badge {
+    border-color: var(--ghb-bg-color) !important;
   }
 }
