@@ -88,3 +88,8 @@
     border-color: var(--ghb-bg-color) !important;
   }
 }
+@-moz-document domain("support.github.com") {
+  #search-results {
+    background: var(--ghb-bg-color) !important;
+  }
+}
