@@ -79,7 +79,8 @@
   .TimelineItem--condensed .TimelineItem-badge,
   .tabnav-pr .tabnav-tab.selected,
   .profile-timeline-month-heading.bg-white,
-  .commits-listing .octicon-git-commit {
+  .commits-listing .octicon-git-commit,
+  .conversation-list-heading .inner {
     background-color: var(--ghb-bg-color) !important;
   }
 
