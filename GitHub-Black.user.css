@@ -7,7 +7,7 @@
 @license     CC-BY-SA-4.0
 @author      xt0rted
 ==/UserStyle== */
-@-moz-document domain("github.com") {
+@-moz-document domain("github.com"), domain("raw.githubusercontent.com") {
   :root {
     --ghb-bg-color: #000;
     --ghb-bg-overlay-color: rgba(24, 24, 24, .4);
