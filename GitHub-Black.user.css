@@ -11,6 +11,7 @@
   :root {
     --ghb-bg-color: #000;
     --ghb-bg-overlay-color: rgba(24, 24, 24, .4);
+    --ghb-bg-input-color: #0a0a0a;
   }
 
   body,
@@ -28,20 +29,24 @@
   input[type="radio"],
   input[type="radio"]:focus,
   input[type="radio"]:hover:active {
-    background-color: var(--ghb-bg-overlay-color) !important;
+    background-color: var(--ghb-bg-input-color) !important;
   }
 
   .form-control,
   .form-select {
-    background-color: var(--ghb-bg-overlay-color);
+    background-color: var(--ghb-bg-input-color);
   }
 
   .form-group .form-control {
-    background-color: var(--ghb-bg-overlay-color);
+    background-color: var(--ghb-bg-input-color);
   }
 
   .form-group .form-control:focus {
-    background-color: var(--ghb-bg-color);
+    background-color: var(--ghb-bg-input-color);
+  }
+
+  .input-contrast, .input-contrast:focus {
+    background-color: var(--ghb-bg-input-color);
   }
 
   /* left column layouts */
