@@ -61,6 +61,7 @@
   .reponav-item.selected,
   .tabnav-tab.selected {
     background-color: var(--ghb-bg-color) !important;
+    border-bottom-color: var(--ghb-bg-color) !important;
   }
 
   .tabnav-pr .tabnav-tab.selected {
